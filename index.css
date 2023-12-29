@@ -81,6 +81,7 @@ section{
 }
 .home{
 
+    width: fit-content;
     display: flex;
     align-items: center;
     padding: 0 8%;
@@ -99,7 +100,7 @@ section{
 }
 .home-container{
     flex: 1 1 50rem;
-    margin-top: 9rem;
+    margin-top: 10rem;
 
 }
 .dp{
@@ -148,7 +149,7 @@ section{
 }
 .home-container p{
     font-size: 1.6rem;
-    margin: 2rem 0 4rem;
+    margin: 2rem .5rem 4rem;
 }
 
 .btn-box{
