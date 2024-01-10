@@ -1,18 +1,16 @@
+document.addEventListener('DOMContentLoaded', function () {
+    // Your JavaScript code here
+    let menuIcon = document.querySelector('#menu-icon');
+    let navbar = document.querySelector('.navbar');
 
-let menuIcon = document.querySelector('#menu-icon');
-let navbar = document.querySelector('.navbar');
-
-
-window.onload = function(){ 
-    // your code 
     menuIcon.onclick = () => {
-    menuIcon.classList.toggle('bx-x');
-    navbar.classList.toggle('active');
-
-    }
-};
+        menuIcon.classList.toggle('bx-x');
+        navbar.classList.toggle('active');
+    };
+});
 
     
+console.log(menuIcon);
 
 
 
