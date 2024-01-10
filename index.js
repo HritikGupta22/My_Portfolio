@@ -9,10 +9,6 @@ document.addEventListener('DOMContentLoaded', function () {
     };
 });
 
-    
-console.log(menuIcon);
-
-
 
 let sections = document.querySelectorAll('section');
 let navLinks = document.querySelectorAll('header nav a');
