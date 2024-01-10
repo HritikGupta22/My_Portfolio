@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', function () {
         menuIcon.classList.toggle('bx-x');
         navbar.classList.toggle('active');
     };
-});
 
 
 let sections = document.querySelectorAll('section');
@@ -40,3 +39,7 @@ window.onscroll = () => {
     navbar.classList.remove('active');
 
 }
+
+    
+});
+
