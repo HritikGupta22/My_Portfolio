@@ -6,17 +6,20 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0,shrink-to-fit=no" />
   <title>Hritik's Portfolio</title>
   <link rel="stylesheet" href="index.css" />
-   <script src="index.js"></script>
-  
-
   <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet" />
+  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
+  <script>
+    emailjs.init("Qwdat94xhiFHY8ET_"); 
+    </script>
+    
+  
 </head>
 
 <body>
   <header class="header">
-    <a href="#" class="namelogo">Hritik Gupta</a>
-    <!-- after click resume downmload-->
-    <i class="bx bx-menu" id="menu-icon"></i>
+    <a href="https://drive.google.com/file/d/1Mqlx7sWHnWLdXrOe4jCdLoztIaLnoed4/view" class="namelogo" title="My Resume" target="_blank">Hritik Gupta <span class="animate" style="--i:1;"></span></a>
+   
+    <i class="bx bx-menu" id="menu-icon"><span class="animate" style="--i:2;"></span></i>
     <nav class='navbar'>
       <a href="#home" class="active">Home</a>
       <a href="#about">About</a>
@@ -25,30 +28,35 @@
       <a href="#projects">Projects</a>
       <a href="#contact">Contact Me</a>
       <span class="active-nav"></span>
+      <span class="animate" style="--i:2;"></span>
     </nav>
   </header>
 
-  <section class="home" id="home">
+  <section class="home show-animate" id="home">
     <div class="row">
 
 
       <div class="home-container">
-        <h1>Hi, I'am <span>Hritik Gupta</span></h1>
+        <h1>Hi, I'am <span>Hritik Gupta</span><span class="animate" style="--i:2;"></span></h1>
         <div class="text-animate">
-          <h3>Software Developer</h3>
+          <h3>Software Developer<span class="animate" style="--i:3;"></span></h3>
         </div>
         <p>
           I am currently pursuing B-Tech from Indian Institute Of Information
           Technology Nagpur. I am passionate about technology and have developed
           a set of skills in Software Field.
+          <span class="animate" style="--i:4;"></span>
         </p>
 
         <div class="btn-box">
-          <a href="#" class="btn">Hire Me</a>
-          <a href="#" class="btn">Let's Talk</a>
+          <a href="mailto:hritikguptak@gmail.com?subject=Hiring%20Inquiry" target="_blank" class="btn">Hire Me</a>
+          <a href="https://api.whatsapp.com/send?phone=919835459861" target="_blank" class="btn">Let's Talk</a>
+          <span class="animate" style="--i:5;"></span>
         </div>
       </div>
-      <div class="dp"><img src="images/1651905871657.jpeg" alt="photo" /></div>
+      <div class="dp"><img src="images/1651905871657.jpeg" alt="photo" />
+        <span class="animate" style="--i:6;"></span>
+      </div>
     </div>
 
     <div class="home-logos">
@@ -58,17 +66,21 @@
       <a href="https://x.com/hritikguptak?t=d-yBQEFHxqUH_GHZgqW6EA&s=09" target="_blank"><i
           class="bx bxl-twitter"></i></a>
       <a href="https://github.com/HritikGupta22" target="_blank"><i class="bx bxl-github"></i></a>
+      <span class="animate" style="--i:7;"></span>
     </div>
   </section>
   <section class="about" id="about">
-    <h1 class="heading">About <span>Me</span></h1>
+    <h1 class="heading">About <span>Me</span> <span class="animate scroll" style="--i:1;"></span></h1>
     <div class="aboutimg">
       <img src="images/dpimg.jpg" alt="aboutimg" />
       <span class="circle-spin"></span>
+      
+    
     </div>
 
     <div class="about-content">
-      <h2>Software Developer!</h2>
+      <h2>Software Developer!<span class="animate scroll" style="--i:2;"></span></h2>
+
 
       <p>
         I am presently enrolled as a third-year student pursuing a Bachelor of
@@ -76,21 +88,23 @@
         my academic pursuits, I have cultivated proficiency in several programming languages, including C, C++, Python,
         and Java. My passion for web development has driven me to acquire adept skills in HTML,
         CSS, JavaScript, jQuery, and PHP.
+        <span class="animate scroll" style="--i:3;"></span>
       </p>
       <!--  These competencies not only underscore my technical versatility but also reflect a keen interest in the dynamic and evolving landscape of computer science. My skills and experience make me a valuable addition to any team, and I am always eager to take on new challenges and learn new skills -->
 
       <div class="btn-box btns">
-        <a href="#education" class="btn">Know More</a>
+        <a href="#education" class="btn">Know More  <span class="animate scroll" style="--i:4;"></span></a>
       </div>
+    
     </div>
   </section>
   <!-- //////////// -->
   <section class="education" id="education">
-    <h2 class="heading">My <span>Journey</span></h2>
+    <h2 class="heading">My <span>Journey</span> <span class="animate scroll" style="--i:1;"></span></h2>
 
     <div class="education-row">
       <div class="education-column">
-        <h2 class="title">Education</h2>
+        <h2 class="title">Education<span class="animate scroll" style="--i:2;"></span></h2>
         <div class="education-box">
           <div class="education-content">
             <div class="content">
@@ -124,12 +138,13 @@
               <h4>Rotary School, Anand Shankar Chainpur, Palamu</h4>
             </div>
           </div>
+          <span class="animate scroll" style="--i:3;"></span>
         </div>
       </div>
 
       <!-- ///////// -->
       <div class="education-column">
-        <h2 class="title">Experience</h2>
+        <h2 class="title">Experience <span class="animate scroll" style="--i:5;"></span></h2>
         <div class="education-box">
           <div class="education-content">
             <div class="content">
@@ -167,6 +182,7 @@
                 </p>
             </div>
           </div>
+          <span class="animate scroll" style="--i:6;"></span>
         </div>
       </div>
     </div>
@@ -178,47 +194,48 @@
   <section class="skills" id="skills">
 
 
-    <h2 class="heading">My <span>Skills</span></h2>
+    <h2 class="heading">My <span>Skills</span> <span class="animate scroll" style="--i:1;"></span></h2>
     <div class="skills-row">
       <div class="skills-column">
-        <h3 class="title">Development Skills</h3>
+        <h3 class="title">Development Skills<span class="animate scroll" style="--i:2;"></span></h3>
         <div class="skills-box">
           <div class="skills-content">
             <div class="progress">
-              <h3>HTML/HTML5<span>90%</span></h3>
+              <h3>HTML/CSS/JavaScript<span>90%</span></h3>
               <div class="skills-bar"><span></span></div>
             </div>
 
             <div class="progress">
-              <h3>CSS/Bootstrap<span>90%</span></h3>
+              <h3>BootStrap/jQuery<span>90%</span></h3>
               <div class="skills-bar"><span></span></div>
             </div>
 
             <div class="progress">
-              <h3>JavaScript/jQuery<span>80%</span></h3>
+              <h3>NodeJS/ExpressJS/MongoDB<span>80%</span></h3>
               <div class="skills-bar"><span></span></div>
             </div>
 
             <div class="progress">
-              <h3>React<span>75%</span></h3>
+              <h3>ReactJs/EJS<span>75%</span></h3>
               <div class="skills-bar"><span></span></div>
             </div>
 
             <div class="progress">
-              <h3>MYSQL/SQL<span>70%</span></h3>
+              <h3>MySQL/PhpMyAdmin/PHP<span>70%</span></h3>
               <div class="skills-bar"><span></span></div>
             </div>
 
             <div class="progress">
-              <h3>PHP<span>70%</span></h3>
+              <h3>Postman/Chakra-UI/REST API<span>70%</span></h3>
               <div class="skills-bar"><span></span></div>
             </div>
 
           </div>
+          <span class="animate scroll" style="--i:3;"></span>
         </div>
       </div>
       <div class="skills-column">
-        <h3 class="title">Coding Skills</h3>
+        <h3 class="title">Coding Skills<span class="animate scroll" style="--i:5;"></span></h3>
         <div class="skills-box">
           <div class="skills-content">
 
@@ -228,7 +245,7 @@
             </div>
 
             <div class="progress">
-              <h3>Data Structure & Alogorithms<span>50%</span></h3>
+              <h3>Data Structure & Alogorithms<span>70%</span></h3>
               <div class="skills-bar"><span></span></div>
             </div>
 
@@ -239,22 +256,23 @@
             </div>
 
             <div class="progress">
-              <h3>Python<span>75%</span></h3>
+              <h3>Python(Basics)<span>75%</span></h3>
               <div class="skills-bar"><span></span></div>
             </div>
 
             <div class="progress">
-              <h3>Java<span>70%</span></h3>
+              <h3>Java(Basics)<span>70%</span></h3>
               <div class="skills-bar"><span></span></div>
             </div>
 
             <div class="progress">
-              <h3>Android Development / Linux(Basics)<span>80%</span></h3>
+              <h3>Android Development / Linux (Basics)<span>75%</span></h3>
               <div class="skills-bar"><span></span></div>
             </div>
 
 
           </div>
+          <span class="animate scroll" style="--i:6;"></span>
         </div>
       </div>
     </div>
@@ -269,10 +287,7 @@
   <section class="askills" id="askills">
 
 
-
-
-
-    <h2 class="heading" id="academic">My<span> Academic Skills</span></h2>
+    <h2 class="heading" id="academic">My<span> Academic Skills</span><span class="animate scroll" style="--i:1;"></span></h2>
     <div class="skills-row">
       <div class="skills-column">
 
@@ -307,6 +322,7 @@
 
 
           </div>
+          <span class="animate scroll" style="--i:2;"></span>
         </div>
       </div>
       <div class="skills-column">
@@ -341,16 +357,19 @@
             </div>
 
 
-          </div>
+          </div><span class="animate scroll" style="--i:4;"></span>
         </div>
       </div>
+    </div>
+    <div class="btn-box btns" id="acedmic-project-btn">
+      <a href="#projects" class="btn">Projects</a>
     </div>
 
   </section>
 
 
   <section class="projects" id="projects">
-    <h2 class="heading">My <span>Projects</span></h2>
+    <h2 class="heading">My <span>Projects</span><span class="animate scroll" style="--i:1;"></span></h2>
 
     <div class="project-content">
 
@@ -368,7 +387,7 @@
                 class='bx bx-link-external'></i></a>
           </div>
         </div>
-        <h4>PORTFOLIO WEBSITE </h4>
+        <h4>PORTFOLIO WEBSITE </h4><p>Skills: HTML/CSS/JS</p>
       </div>
 
 
@@ -383,14 +402,13 @@
           <div class="row-icon">
             <a href="https://github.com/HritikGupta22/Project-Banking-Services" target="_blank"><i
                 class='bx bxl-github'></i></a>
-            <a href="http://hrtk22bnk.000webhostapp.com/index.php" target="_blank"><i
+            <a href="http://hrtk22bnk.infinityfreeapp.com/index.php" target="_blank"><i
                 class='bx bx-link-external'></i></a>
           </div>
         </div>
-        <h4>BASIC BANKING SERVICE SYSTEM</h4>
+        <h4>BASIC BANKING SERVICE SYSTEM</h4><p>Skills: PHP/MySQL/PhpMyAdmin </p>
       </div>
 
-<!-- new -->
       <div class="proj-row">
         <img
           src="images/blogimg.png"
@@ -401,19 +419,37 @@
             <h5>Website Design</h5>
           </div>
           <div class="row-icon">
-            <a href="https://github.com/HritikGupta22/Blogsite_Node_Exp_MgDB" target="_blank"><i
-                class='bx bxl-github'></i></a>
-            <a
-              href="https://encouraging-jacket-tuna.cyclic.app/blogs" target="_blank"><i
-                class='bx bx-link-external'></i></a>
+            <a href="https://github.com/HritikGupta22/Blogsite_Node_Exp_MgDB" target="_blank">
+              <i class='bx bxl-github'></i></a>
+            <a href="https://blogsitewithnodejs.onrender.com" target="_blank">
+              <i class='bx bx-link-external'></i>
+            </a>
           </div>
         </div>
         <h4>Blog Writing Site </h4><p>Skills: NodeJS/ExpressJS/MongoDB</p>
       </div>
+ 
 
 
-<!-- // -->
+      <div class="proj-row">
+        <img
+          src="images/MovieSpace.png"
+          alt="img">
 
+        <div class="main-row">
+          <div class="row-text">
+            <h5>Website Design</h5>
+          </div>
+          <div class="row-icon">
+            <a href="https://github.com/HritikGupta22/MERNmoviesSpace" target="_blank"><i
+                class='bx bxl-github'></i></a>
+            <a
+              href="https://quiet-cuchufli-f78f0d.netlify.app/" target="_blank"><i
+                class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <h4>MERNmoviesSpace </h4><p>Skills: ReactJS/NodeJS/ExpressJS/MongoDB</p>
+      </div>
 
 
 
@@ -431,13 +467,32 @@
             <a href="https://github.com/HritikGupta22/Mass-Mail-Dispatcher" target="_blank"><i
                 class='bx bxl-github'></i></a>
             <a
-              href="https://www.linkedin.com/posts/hritik-gupta-5352a01b8_hello-connection-i-had-completed-a-web-development-activity-7030224773196439552-2IMY?utm_source=share&utm_medium=member_desktop"><i
+              href="https://www.linkedin.com/posts/hritik-gupta-5352a01b8_hello-connection-i-had-completed-a-web-development-activity-7030224773196439552-2IMY?utm_source=share&utm_medium=member_desktop" target="_blank"><i
                 class='bx bx-link-external'></i></a>
           </div>
         </div>
-        <h4>MASS-MAIL DISPATCHER</h4>
+        <h4>MASS-MAIL DISPATCHER</h4><p>Skills: JS/JQUERY/SMTP(server)</p>
       </div>
 
+      <div class="proj-row">
+        <img
+          src="images/CRM.png"
+          alt="img">
+
+        <div class="main-row">
+          <div class="row-text">
+            <h5>Website Design</h5>
+          </div>
+          <div class="row-icon">
+            <a href="https://github.com/HritikGupta22/CrmFrontend" target="_blank"><i
+                class='bx bxl-github'></i></a>
+            <a
+              href="https://prismatic-meringue-4739c2.netlify.app/" target="_blank"><i
+                class='bx bx-link-external'></i></a>
+          </div>
+        </div>
+        <h4>CRM Application </h4><p>Skills: ReactJS/NodeJS/ExpressJS/MongoDB</p>
+      </div>
 
 
 
@@ -452,20 +507,23 @@
           </div>
           <div class="row-icon">
             <a href="https://github.com/HritikGupta22/Movie_Finder" target="_blank"><i class='bx bxl-github'></i></a>
-            <a href="https://github.com/HritikGupta22/Movie_Finder"><i class='bx bx-link-external'></i></a>
+            
           </div>
         </div>
         <h4>Movie Finder</h4>
       </div>
+      
     </div>
+
 
     <div class="btn-box btns" id="acedmic-project-btn">
       <a href="#aprojects" class="btn">Academics Projects</a>
     </div>
   </section>
 
+  
   <section class="aprojects" id="aprojects">
-    <h2 class="heading">My Academics <span>Projects</span></h2>
+    <h2 class="heading">My Academics <span>Projects</span><span class="animate scroll" style="--i:1;"></span></h2>
 
     <div class="project-content">
 
@@ -548,40 +606,39 @@
 
 
   <section class="contact" id="contact">
-    <h2 class="heading">Contact <span>Me!</span></h2>
+    <h2 class="heading">Contact <span>Me!</span><span class="animate scroll" style="--i:1;"></span></h2>
 
-    <form action="#">
+    <form  id="contact-form">
       <div class="input-box">
         <div class="input-field">
-          <input type="text" placeholder="Full Name" required>
+          <input type="text" id="fullName" placeholder="Full Name" required>
           <span class="focus"></span>
         </div>
         <div class="input-field">
-          <input type="email" placeholder="Email Address" required>
+          <input type="email" id="emailAddress" placeholder="Email Address" required>
           <span class="focus"></span>
         </div>
         <div class="input-field">
-          <input type="number" placeholder="Mobile Number" required>
+          <input type="number"   id="mobileNumber" placeholder="Mobile Number" required>
           <span class="focus"></span>
         </div>
         <div class="input-field">
-          <input type="text" placeholder="Email Subject" required>
+          <input type="text"  id="emailSubject"  placeholder="Email Subject" required>
           <span class="focus"></span>
         </div>
+        
+        <span class="animate scroll" style="--i:2;"></span>
       </div>
       <div class="textarea-field">
-        <textarea name="" id="" cols="30" rows="8" placeholder="Your Message" required></textarea>
+        <textarea id="message" cols="30" rows="8" placeholder="Your Message" required></textarea>
         <span class="focus"></span>
+        
+      <span class="animate scroll" style="--i:3;"></span>
       </div>
 
       <div class="btn-box btns">
-        <button type="submit" class="btn" id="submitbtn">Submit</button>
+        <button type="submit" class="btn" id="submitbtn">Submit<span class="animate scroll" style="--i:4;"></span></button>
       </div>
-
-
-
-
-
     </form>
 
 
@@ -596,14 +653,16 @@
       <a href="https://x.com/hritikguptak?t=d-yBQEFHxqUH_GHZgqW6EA&s=09" target="_blank"><i
           class="bx bxl-twitter"></i></a>
       <a href="https://github.com/HritikGupta22" target="_blank"><i class="bx bxl-github"></i></a>
+   
     </div>
 
     <div class="footer-iconTop">
       <a href="#"><i class='bx bx-up-arrow-alt'></i></a>
     </div>
+   
   </footer>
-
-
+  <script src="index.js"></script>
+ 
 
 </body>
 
