@@ -1,2 +1,1 @@
-# Resume
-Simple basic html with my resume.
+# Live Link: https://hritikgupta22.github.io/My_Portfolio/
